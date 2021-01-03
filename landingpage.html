@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+        @import url("https://use.typekit.net/ojm7mln.css");
+
+        body, html {
+        height: 100%;
+        scroll-behavior: smooth;
+        padding-bottom: 1150px;
+        }
+
+        #img-div {  /* this is the background image */
+        /* The image used */
+        background-image: url("images/grouperphoto.png");
+
+        /* Full height */
+        height: 100%;
+        width: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        
+        #img-caption {
+            position: absolute;
+            top: 35%;
+            right: 25%;
+            margin-top: -50px;
+            margin-left: -50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        #sub {
+            position: absolute;
+            top: 51%;
+            right: 2.5%;
+            margin-top: -50px;
+            margin-left: -50px;
+            width: 400px;
+            height: 100px;
+        }
+        
+        #spot {
+            position: absolute;
+            top: 63%;
+            right: 15%;
+            margin-top: -50px;
+            margin-left: -50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        #apple {
+            position: absolute;
+            top: 63%;
+            right: 11.5%;
+            margin-top: -50px;
+            margin-left: -50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .button1 {
+            border: none;
+            color:  #3f8946;
+            background-color: transparent;
+            padding: 4px 7px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family:'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 23px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 12px;
+            position: absolute;
+            top: 71%;
+            right: 13.48%;
+            margin-top: -50px;
+            margin-left: -50px;
+            width: 160px;
+            height: 50px;
+            }
+
+            .button1 {
+            background-color: none;
+            color: #3f8946;
+            border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            #about {
+                position: absolute;
+                top: 120%;
+                left: 8%;
+                margin-top: -50px;
+                margin-left: -50px;
+                width: 100px;
+                height: 100px;
+            }
+
+            #tribute-info {
+                position: absolute;
+                top: 140%;
+                left: 8%;
+                margin-top: -50px;
+                margin-left: -50px;
+                width: 1300px;
+                height: 500px;
+            }
+
+            .button2 {
+            border: none;
+            color:  #1d1c1c;
+            background-color: transparent;
+            padding: 4px 7px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family:'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 23px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 4px;
+            position: absolute;
+            top: 245%;
+            left: 8%;
+            margin-top: -50px;
+            margin-left: -50px;
+            width: 160px;
+            height: 50px;
+            }
+
+            .button2 {
+            background-color: none;
+            color: #1d1c1c;
+            border: 2px solid#1d1c1c;
+            }
+
+            .button2:hover {
+            background-color: #1d1c1c;
+            color: white;
+            }
+    </style>
+</head>
+
+<body id="main">
+    <div id="img-div"> 
+        <h1 id="img-caption" style="font-family: 'Montserrat', sans-serif; font-size: 88px; font-weight: 700; color: #3f8946;" >
+            Grouper
+        </h1>
+        <h2 id="sub"style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 49px; color: #1d1c1c;">
+            Poison Tree
+        </h2>
+        <a id="spot" href="https://open.spotify.com/artist/31uyAcnY0kjjKKIQZMKX4i"> <!--this is the spotify access link-->
+            <img src="images\spotifyicon-01.png" alt="spotify icon" height="30" width="30" />
+        </a>
+        <a id="apple" href="https://music.apple.com/us/artist/grouper/428125326"> <!--this is the apple music access link-->
+            <img src="images\applemusicon.png" alt="apple music icon" height="30" width="30" />
+        </a>
+        <a href="#about">
+        <button class="button button1">Learn More</button>
+        </a>
+    </div> 
+    <h2 id="about" style="font-family: 'Montserrat', sans-serif; font-size: 49px; font-weight: 700; color: #1d1c1c;">  <!---This is the about title.-->
+        about
+    </h2>
+    <div id="tribute-info" style="font-family: adobe-caslon-pro, serif; font-weight: 400; font-style: normal; font-size: 34px;"> <!---This is for the landing page info.--->
+        Since 2005, no other artist has been as consistent or prolific as Liz Harris, an artist based in Portland, OR best known for the music she makes under the name Grouper. Her 10th record, Ruins, released this year on Halloween, is only a capstone on a decade of incomparable work that is timeless and universal. Harris exists outside of any zeitgeist or scene, with no obvious reference points or clues to her influences, stifling music journalists who make a living out of making (up) connections. Frustrating them even more is her reluctance to give more than the minimum amount of interviews required for each new album or special appearance. She never tours and rarely plays live. Outlines of her upbringing and background are known, but she remains largely untapped by a public and press that inevitably suck the life out of anything they love. There are no Instagram selfies with Harris backstage or outside a club after a show, no tweets, confessional interviews, scandals, memes, jokes or jabs—nothing that disrespects the religious purity of her music.
+    </div>
+    <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Grouper_(musician)" > <!--This links to additional information about the band.-->
+        <button class="button button2">Explore</button>
+    </a>
+</body>
+</html>
